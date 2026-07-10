@@ -13,12 +13,23 @@ nav{
     max-width: 1200px ;
     padding:20px;   
 }
-nav ul {
-    list-style: none;
+nav ul{
+    list-style:none;
     display: flex;
     gap: 10px;
-    text-decoration: none;    
+
 }
+nav ul li a{
+    text-decoration: none;
+    color: black
+}
+/* nav ul {
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    text-decoration: none;
+} */
 /* logo section */
 .logo {
     display: flex;
@@ -29,11 +40,7 @@ nav ul {
     width: 40px;
     height: 40px;
 }
-.logo h2 {
-    font-size: 20px;
-    line-height: 1.2;
-    margin: 0;
-}
+
 .common-btn{
     background-color: #1D4ED8;
     color:white;
@@ -279,4 +286,36 @@ nav ul {
 .feature-card p{
     color:#6b7280;
     line-height:1.7;
+}
+/* footer step */
+footer{
+    background-color: #141c2e;
+    padding: 20px 0;
+}
+.last-section{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.left-side {
+    color: gray;
+    font-size: 20px;
+    
+
+}
+.right-side ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+
+
+}
+.right-side ul li a{
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+
 }
