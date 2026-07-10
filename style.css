@@ -225,3 +225,58 @@ nav ul {
     color:white;
     border:none;
 }
+/* ai generated css */
+/* Why Attend Section */
+
+.why-attend{
+    padding:80px 0;
+    background:#f8fafc;
+}
+
+.section-title{
+    text-align:center;
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.section-description{
+    text-align:center;
+    color:#6b7280;
+    max-width:700px;
+    margin:0 auto 60px;
+    line-height:1.6;
+}
+
+.feature-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.feature-card{
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:30px;
+    transition:.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.icon{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.feature-card h3{
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.feature-card p{
+    color:#6b7280;
+    line-height:1.7;
+}
