@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:0 auto;
+   
+    max-width: 1200px ;
+    padding:20px;   
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    text-decoration: none;    
+}
+/* log section */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+}
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+.logo h2 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 0;
+}
+nav .btn{
+    background-color: #1D4ED8;
+    color:white;
+    border:none ;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    padding: 12px 10px;
+}
