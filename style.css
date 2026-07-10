@@ -19,7 +19,7 @@ nav ul {
     gap: 10px;
     text-decoration: none;    
 }
-/* log section */
+/* logo section */
 .logo {
     display: flex;
     align-items: center;
@@ -103,4 +103,53 @@ nav ul {
     padding: 18px 45px;
     font-size: 22px;
     margin-top: 400px;
+}
+
+.speaker {
+    padding: 80px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.speaker-card {
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.speaker-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.category {
+    color: blue;
+    font-size: 12px;
+    margin: 20px 20px 8px;
+}
+
+.speaker-card h3 {
+    margin: 0 20px;
+}
+
+.designation {
+    margin: 10px 20px 20px;
+    color: gray;
 }
