@@ -234,59 +234,82 @@ nav ul li a{
 }
 /* ai generated css */
 /* Why Attend Section */
+/* ==========================
+   Innovation Lab Section
+========================== */
 
-.why-attend{
-    padding:80px 0;
-    background:#f8fafc;
+.innovation-lab {
+    padding: 100px 0;
+    background-color: #F8FAFC;
 }
 
-.section-title{
-    text-align:center;
-    font-size:48px;
-    margin-bottom:15px;
+.lab-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }
 
-.section-description{
-    text-align:center;
-    color:#6b7280;
-    max-width:700px;
-    margin:0 auto 60px;
-    line-height:1.6;
+.lab-card {
+    width: 260px;
+    background: #ffffff;
+    padding: 35px 25px;
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
 }
 
-.feature-container{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:30px;
+.lab-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 18px 35px rgba(37, 99, 235, 0.18);
 }
 
-.feature-card{
-    background:#ffffff;
-    border:1px solid #e5e7eb;
-    border-radius:12px;
-    padding:30px;
-    transition:.3s;
+.lab-icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
 }
 
-.feature-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
+.lab-card:hover .lab-icon {
+    transform: scale(1.15);
 }
 
-.icon{
-    font-size:45px;
-    margin-bottom:20px;
+.lab-card h3 {
+    font-size: 24px;
+    color: #111827;
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
 }
 
-.feature-card h3{
-    font-size:24px;
-    margin-bottom:15px;
+.lab-card:hover h3 {
+    color: #2563EB;
 }
 
-.feature-card p{
-    color:#6b7280;
-    line-height:1.7;
+.lab-card p {
+    color: #6B7280;
+    font-size: 16px;
+    line-height: 1.7;
 }
+
+.innovation-lab .section-title {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.innovation-lab .section-description {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    color: #6B7280;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
 /* footer step */
 footer{
     background-color: #141c2e;
