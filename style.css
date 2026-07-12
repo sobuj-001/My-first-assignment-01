@@ -232,11 +232,10 @@ nav ul li a{
     color:white;
     border:none;
 }
-/* ai generated css */
-/* Why Attend Section */
-/* ==========================
+
+/* 
    Innovation Lab Section
-========================== */
+ */
 
 .innovation-lab {
     padding: 100px 0;
@@ -260,7 +259,7 @@ nav ul li a{
     text-align: center;
     border: 1px solid #E5E7EB;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
+    
 }
 
 .lab-card:hover {
@@ -313,8 +312,38 @@ nav ul li a{
 /* footer step */
 footer{
     background-color: #141c2e;
-    padding: 20px 0;
+    padding: 40px 0;
 }
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto 25px;
+}
+
+.footer-logo img{
+    width: 150px;
+}
+
+.footer-social{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-social img{
+    width: 24px;
+    height: 24px;
+}
+
+footer hr {
+    max-width: 1200px;
+    margin: 0 auto 20px;
+    border: none;
+    border-top: 1px solid rgba(209, 201, 201, 0.2);
+}
+
 .last-section{
     display: flex;
     justify-content: space-between;
@@ -323,7 +352,7 @@ footer{
     max-width: 1200px;
     margin: 0 auto;
 }
-.left-side {
+.left-side p{
     color: gray;
     font-size: 20px;
     
